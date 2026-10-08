@@ -1,2 +1,5 @@
- "ghp_123456789012345678901234567890123456";
-console.log("API Key:", API_KEY);
+// app.js
+const PRIVATE_KEY = `-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAz123456789ABCDEF
+-----END RSA PRIVATE KEY-----`;
+console.log("Servidor configurado");
