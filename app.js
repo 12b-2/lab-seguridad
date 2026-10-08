@@ -1,3 +1,5 @@
-// app.js
-const SLACK_TOKEN = "xoxb-123456789012-1234567890123-abcdefghijklmnopqrstuvwx";
-console.log("Configuración inicializada");
+
+require('dotenv').config();
+const SLACK_TOKEN = process.env.SLACK_TOKEN;
+
+console.log("Aplicación ejecutándose de manera segura.");
